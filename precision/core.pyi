@@ -8,7 +8,6 @@ from pymc_marketing import clv
 from rfm_analyzer import RFMAnalyzer
 from typing import Any
 import logging
-import warnings
 
 def run_customer_segmentation(customers_df: Any, orders_df: Any, analysis_date: Any) -> Any:
     ...
@@ -33,4 +32,3 @@ import pymc_extras.prior
 import pymc_marketing
 import pymc_marketing.clv
 import logging
-import warnings
